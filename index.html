@@ -15,20 +15,55 @@
 
   <body>
 
-    <div class="container">
-      <header>
-        <nav>
-          <img id="logo" src="./images/logo/Booki@3x.png" alt="Logo du site" />
-          <div>
-            <a href="#hebergements" class="activite">Hébergements</a>
-            <a href="#activites">Activités</a>
-          </div>
-        </nav>
-      </header>
+    <!-- HEADER -->
+    <header class="head">
+      <nav>
+        <img id="logo" src="./images/logo/Booki@3x.png" alt="Logo du site" />
+        <div>
+          <a href="#hebergements" class="activite">Hébergements</a>
+          <a href="#activites">Activités</a>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN HEADER -->
 
+    <div class="main">
       
+      <!-- SEARCH -->
+      <section>
+        <div id="title">
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div id="search">
+          <i class="fa-sharp fa-solid fa-location-dot"></i>
+          <input
+            type="search"
+            name="recherche"
+            placeholder="Marseille, France"
+          />
+          <button type="submit">
+            <span>Rechercher</span><i class="fas fa-search"></i>
+          </button>
+        </div>
+        <!-- FIN SEARCH -->
+
+        <!-- FILTRES -->
+        <div id="filtres">
+          <h3>Filtres</h3>
+          <button><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+          <button><i class="fa-solid fa-child-reaching"></i>Familial</button>
+          <button><i class="fa-solid fa-heart"></i>Romantique</button>
+          <button><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
+        </div>
+        <div id="plus">
+          <i class="fas fa-info"></i>Plus de 500 logements disponibles dans
+          cette ville
+        </div>
+        <!-- FIN FILTRES -->
+
+      </section>
 
     </div>
-
   </body>
 </html>
