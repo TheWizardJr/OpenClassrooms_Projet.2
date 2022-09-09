@@ -1,0 +1,56 @@
+@media screen and (max-width: 991px) {
+
+    /*MEDIA QUERIES SEARCH 991px*/
+
+    #search {
+      display: flex;
+      justify-content: center;
+    }
+  
+    #title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 20px;
+    }
+  
+    #search input {
+      width: 300px;
+    }
+  
+  
+    /*FIN MEDIA QUERIES SEARCH 991px*/
+
+    /* MEDIA QUERIES FILTRES 991PX*/
+
+    #filtres h3 {
+      flex-basis: 100%;
+      margin: 0px;
+    }
+  
+    #filtres button {
+      margin-top: -20px;
+    }
+  
+    /* FIN MEDIA QUERIES FILTRES 991px*/
+
+    /* MEDIA QUERIES CARDS */
+
+    .container_hebergement{
+      flex-direction: column-reverse;
+    }
+
+    /* MEDIA QUERIES MINI CARDS */
+
+    .cards_populaire{
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .cards_populaire div{
+      flex-basis: 100%;
+    }
+
+}
