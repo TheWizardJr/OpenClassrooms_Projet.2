@@ -35,6 +35,11 @@
 
   /*MEDIA QUERIES SEARCH 768px*/
 
+    #search{
+      display: flex;
+      justify-content: center;
+    }
+
 
     #search button i {
       display: flex;
@@ -66,7 +71,6 @@
 
   .cards_populaire{
     flex-direction: column;
-    margin-bottom: 30px;
   }
 
   .cards_hebergement{
@@ -74,6 +78,7 @@
 
   }
 
-  .cards_hebergement img{
-    height: 150px;
+  .cards_hebergement div{
+    width: 100%;
+  }
 }

@@ -4,7 +4,6 @@
 
     #search {
       display: flex;
-      justify-content: center;
     }
   
     #title {
@@ -43,14 +42,12 @@
     /* MEDIA QUERIES MINI CARDS */
 
     .cards_populaire{
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around;
-      gap: 30px;
-      margin-bottom: 30px;
     }
 
-    .cards_populaire div{
-      flex-basis: 100%;
+    .cards_populaire span{
+      position: relative;
+      top: 60px;
     }
-
 }
