@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
 
-    /* MEDIA QUERIES HEADER 768px */
+    /* HEADER */
 
     nav div {
       display: flex;
@@ -31,9 +31,9 @@
     }
   
   
-  /*FIN MEDIA QUERIES HEADER*/
+  /*END HEADER*/
 
-  /*MEDIA QUERIES SEARCH 768px*/
+  /* SEARCH */
 
     #search{
       display: flex;
@@ -55,30 +55,39 @@
       display: none;
     }
   
-  /*FIN MEDIA QUERIES SEARCH 768px*/
+  /*END SEARCH */
 
-  /* MEDIA QUERIES CARDS 768px */
+  /* LODGING  */
 
-  .container_hebergement{
+  .container_lodging{
     padding: 0px;
   }
 
-  .container_hebergement > div{
+  .container_lodging > div{
     border-radius: inherit;
   }
 
-  /* MEDIA QUERIES MINI CARDS */
+  /* END LODGING */
 
-  .cards_populaire{
-    flex-direction: column;
-  }
+  /* MINI CARDS LODGING */
 
-  .cards_hebergement{
+  .cards_lodging{
     flex-direction: column;
 
   }
 
-  .cards_hebergement div{
+  .cards_lodging div{
     width: 100%;
   }
+
+  /* END MINI CARDS LODGING */
+
+  /* MINI CARDS POPULAR */
+
+  .cards_popular{
+    flex-direction: column;
+  }
+
+  /* END MINI CARDS POPULAR */
+
 }

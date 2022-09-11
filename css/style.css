@@ -40,11 +40,11 @@ nav div a:hover {
   color: #0065fc;
 }
 
-/*FIN HEADER*/
+/*END HEADER*/
 
 /* SEARCH */
 
-.search_filtres{
+.search_filters{
   padding: 0px 50px;
 }
 
@@ -92,11 +92,11 @@ section h1 {
   display: none;
 }
 
-/* FIN SEARCH */
+/* END SEARCH */
 
-/* FILTRES */
+/* FILTERS */
 
-#filtres {
+#filters {
   display: flex;
   align-items: center;
   margin: 25px 0;
@@ -105,7 +105,7 @@ section h1 {
   gap: 32px;
 }
 
-#filtres button {
+#filters button {
   display: flex;
   align-items: center;
   background-color: white;
@@ -119,12 +119,12 @@ section h1 {
   transition: 0.3s;
 }
 
-#filtres button:hover {
+#filters button:hover {
   background: #deebff;
   transform: scale(1.1);
 }
 
-#filtres i {
+#filters i {
   background: #deebff;
   color: #0065fc;
   height: 45px;
@@ -136,13 +136,13 @@ section h1 {
   margin-left: -18px;
 }
 
-#plus {
+#plus{
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
 
-#plus i {
+#plus i{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,31 +154,31 @@ section h1 {
   color: #0065fc;
 }
 
-/*FIN FILTRES*/
+/*END FILTERS*/
 
-/* HEBERGEMENT */
+/* LODGING */
 
-.container_hebergement{
+.container_lodging{
   padding: 0px 50px;
   display: flex;
   gap: 36px;
 }
 
-.container_hebergement > div{
+.container_lodging > div{
     background-color: #f2f2f2;
     border-radius: 20px;
     padding: 12px 32px;
   }
 
-.ville{
+.city{
   flex-basis: 66%;
 }
 
-.container_hebergement .populaire{
+.container_lodging .populaire{
   flex-basis: 33%;
 }
 
-.container_hebergement a{
+.container_lodging a{
   color: inherit;
   text-decoration: none;
   font-weight: 600;
@@ -189,22 +189,22 @@ section h1 {
   justify-content: space-between;
 }
 
-.container_hebergement h3{
+.container_lodging h3{
   font-size: 22px;
 }
 
-/*HEBERGEMENT*/
+/*LODGING*/
 
-/*MINI CARDS HEBERGEMENT*/
+/*MINI CARDS LODGING*/
 
-.cards_hebergement{
+.cards_lodging{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 15px;
 }
 
-.cards_hebergement > div{
+.cards_lodging > div{
   background-color: white;
   border-radius: 20px;
   width: 30%;
@@ -214,14 +214,14 @@ section h1 {
   margin-bottom: 25px;
 }
 
-.cards_hebergement div:hover{
+.cards_lodging div:hover{
   background-color: #deebff;
   cursor: pointer;
   transition: 0.3s;
   transform: scale(1.03);
 }
 
-.cards_hebergement i{
+.cards_lodging i{
   color: #0065fc;
 }
 
@@ -229,21 +229,21 @@ section h1 {
   color: #d9d9d9;
 }
 
-.cards_hebergement img{
+.cards_lodging img{
   border-radius: 20px 20px 0 0;
-  height: 129px;
+  height: 117px;
   object-fit: cover;
   width: 100%;
 }
 
-.cards_hebergement h3{
+.cards_lodging h3{
   font-size: 16px;
   padding-top: 5px;
   padding-left: 8px;
   margin: 0px;
 }
 
-.cards_hebergement p{
+.cards_lodging p{
   font-size: 13px;
   padding-top: 1px;
   padding-bottom: 5px;
@@ -251,23 +251,23 @@ section h1 {
   margin: 0px;
 }
 
-.cards_hebergement span{
+.cards_lodging span{
   font-size: 12px;
   padding-left: 8px;
 }
 
-/* MINI CARDS POPULAIRE */
+/* END MINI CARDS LODGING */
 
-.cards_populaire{
+/* MINI CARDS POPULAR */
+
+.cards_popular{
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
-.text_logement{
-  margin-left: 10px;
-}
 
-.cards_populaire > div{
+
+.cards_popular > div{
   display: flex;
   background-color: white;
   border-radius: 20px;
@@ -277,85 +277,44 @@ section h1 {
   margin-bottom: 25px;
 }
 
-.cards_populaire div:hover{
+.cards_popular div:hover{
   background-color: #deebff;
   cursor: pointer;
   transition: 0.3s;
   transform: scale(1.03);
 }
 
-.cards_populaire i{
+.cards_popular i{
   color: #0065fc;
 }
 
-.cards_populaire img{
+.cards_popular img{
   border-radius: 20px 0 0 20px ;
   width: 155px;
   object-fit: cover;
 }
 
-.cards_populaire h3{
+.cards_popular h3{
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-.cards_populaire p{
+.cards_popular p{
   font-size: 13px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.cards_populaire span{
+.cards_popular span{
   font-size: 12px;
 }
 
-.allignement_star{
-  position: relative;
-  top: 50px;
+.text_popular{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 12px;
 }
 
-.allignement_stars{
-  position: relative;
-  top: 70px;
-}
-
-@media screen and (max-width: 1406px) {
-
-  .allignement_stars{
-    position: relative;
-    top: 54px;
-  }
-}
-
-@media screen and (max-width: 1268px) {
-
-  .allignement_star{
-    position: relative;
-    top: 30px;
-  }
-}
-
-@media screen and (max-width: 1224px) {
-
-  .allignement_stars{
-    position: relative;
-    top: 40px;
-  }
-}
-
-@media screen and (max-width: 1208px) {
-
-  .allignement_star{
-    position: relative;
-    top: 10px;
-  }
-}
-
-@media screen and (max-width: 1185px) {
-
-  .allignement_stars{
-    position: relative;
-    top: 20px;
-  }
-}
+/* END MINI CARDS POPULAR */

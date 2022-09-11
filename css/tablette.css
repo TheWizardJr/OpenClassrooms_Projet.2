@@ -1,6 +1,6 @@
 @media screen and (max-width: 991px) {
 
-    /*MEDIA QUERIES SEARCH 991px*/
+    /*SEARCH*/
 
     #search {
       display: flex;
@@ -18,36 +18,36 @@
     }
   
   
-    /*FIN MEDIA QUERIES SEARCH 991px*/
+    /* END SEARCH */
 
-    /* MEDIA QUERIES FILTRES 991PX*/
+    /*  FILTERS */
 
-    #filtres h3 {
+    #filters h3 {
       flex-basis: 100%;
       margin: 0px;
     }
   
-    #filtres button {
+    #filters button {
       margin-top: -20px;
     }
   
-    /* FIN MEDIA QUERIES FILTRES 991px*/
+    /*  FILTERS */
 
-    /* MEDIA QUERIES CARDS */
+    /* LODGING */
 
-    .container_hebergement{
+    .container_lodging{
       flex-direction: column-reverse;
     }
 
-    /* MEDIA QUERIES MINI CARDS */
+    /* END LODGING */
 
-    .cards_populaire{
+    /*  MINI CARDS POPULAR */
+
+    .cards_popular{
       flex-direction: column;
       justify-content: space-around;
     }
 
-    .cards_populaire span{
-      position: relative;
-      top: 60px;
-    }
+    /* END MINI CARDS POPULAR */
+
 }
