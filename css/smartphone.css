@@ -11,7 +11,7 @@
       margin: 0px;
     }
   
-    #logo {
+    .logo {
       margin: auto;
     }
   
@@ -35,23 +35,21 @@
 
   /* SEARCH */
 
-    #search{
-      display: flex;
-      justify-content: center;
+    .search_filters {
+    padding: 0px 20px;
     }
 
-
-    #search button i {
+    .search button i {
       display: flex;
     }
   
-    #search button {
+    .search button {
       width: 60px;
       border-radius: 16px;
       margin-left: -10px;
     }
   
-    #search button span {
+    .search button span {
       display: none;
     }
   
@@ -59,35 +57,34 @@
 
   /* LODGING  */
 
-  .container_lodging{
+  #container_lodging{
     padding: 0px;
-  }
-
-  .container_lodging > div{
-    border-radius: inherit;
   }
 
   /* END LODGING */
 
-  /* MINI CARDS LODGING */
+  /* RESULTS & POPULAR */
 
-  .cards_lodging{
+  .results, .popular{
+    border-radius: inherit;
+  }
+
+  .results{
+    background-color: white;
+  }
+
+  /* END RESULTS & POPULAR */
+
+  /* CARDS LODGING & POPULAR */
+
+  .cards_lodging, .cards_popular{
     flex-direction: column;
-
   }
 
   .cards_lodging div{
     width: 100%;
   }
 
-  /* END MINI CARDS LODGING */
-
-  /* MINI CARDS POPULAR */
-
-  .cards_popular{
-    flex-direction: column;
-  }
-
-  /* END MINI CARDS POPULAR */
+  /* END CARDS LODGING & POPULAR */
 
 }

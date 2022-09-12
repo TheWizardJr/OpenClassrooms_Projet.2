@@ -2,18 +2,15 @@
 
     /*SEARCH*/
 
-    #search {
+    .search {
       display: flex;
     }
   
-    #title {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    .title {
       padding-bottom: 20px;
-    }
+    } 
   
-    #search input {
+    .search input {
       width: 300px;
     }
   
@@ -22,12 +19,12 @@
 
     /*  FILTERS */
 
-    #filters h3 {
+    .filters h3 {
       flex-basis: 100%;
       margin: 0px;
     }
   
-    #filters button {
+    .filters button {
       margin-top: -20px;
     }
   
@@ -35,19 +32,20 @@
 
     /* LODGING */
 
-    .container_lodging{
+    #container_lodging{
       flex-direction: column-reverse;
     }
-
+  
     /* END LODGING */
-
-    /*  MINI CARDS POPULAR */
-
+  
+    /* CARDS POPULAR */
+  
     .cards_popular{
       flex-direction: column;
       justify-content: space-around;
     }
-
-    /* END MINI CARDS POPULAR */
+  
+    /* END CARDS POPULAR */
+  
 
 }

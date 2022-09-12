@@ -29,7 +29,7 @@ nav a {
   font-size: 15px;
 }
 
-#logo {
+.logo {
   width: 100px;
   margin-right: auto;
   padding-top: 44px;
@@ -54,7 +54,7 @@ section h1 {
   font-size: 24px;
 }
 
-#search {
+.search {
   display: flex;
   font-size: 18px;
   font-weight: 900;
@@ -67,18 +67,18 @@ section h1 {
   font-size: 18px;
 }
 
-#search input {
+.search input {
   border: 1px solid #f2f2f2;
   padding-left: 15px;
   padding-right: 35px;
 }
 
-#search input::placeholder {
+.search input::placeholder {
   color: black;
   font-weight: 700;
 }
 
-#search button {
+.search button {
   background-color: #0065fc;
   color: white;
   border: none;
@@ -88,7 +88,7 @@ section h1 {
   cursor: pointer;
 }
 
-#search button i {
+.search button i {
   display: none;
 }
 
@@ -96,7 +96,7 @@ section h1 {
 
 /* FILTERS */
 
-#filters {
+.filters {
   display: flex;
   align-items: center;
   margin: 25px 0;
@@ -105,7 +105,7 @@ section h1 {
   gap: 32px;
 }
 
-#filters button {
+.filters button {
   display: flex;
   align-items: center;
   background-color: white;
@@ -119,12 +119,12 @@ section h1 {
   transition: 0.3s;
 }
 
-#filters button:hover {
+.filters button:hover {
   background: #deebff;
   transform: scale(1.1);
 }
 
-#filters i {
+.filters i {
   background: #deebff;
   color: #0065fc;
   height: 45px;
@@ -136,13 +136,13 @@ section h1 {
   margin-left: -18px;
 }
 
-#plus{
+.plus{
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
 
-#plus i{
+.plus i{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,44 +158,44 @@ section h1 {
 
 /* LODGING */
 
-.container_lodging{
+#container_lodging{
   padding: 0px 50px;
   display: flex;
   gap: 36px;
 }
 
-.container_lodging > div{
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    padding: 12px 32px;
-  }
-
-.city{
-  flex-basis: 66%;
+.stars{
+  color: #0065fc;
 }
 
-.container_lodging .populaire{
-  flex-basis: 33%;
+.grey{
+  color: #d9d9d9;
 }
 
-.container_lodging a{
+/* END LODGING */
+
+/* RESULTS & POPULAR */
+
+.results, .popular{
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 12px 32px;
+}
+
+.results a{
   color: inherit;
   text-decoration: none;
   font-weight: 600;
 }
 
-.stars{
+.star{
   display: flex;
   justify-content: space-between;
 }
 
-.container_lodging h3{
-  font-size: 22px;
-}
+/* END RESULTS & POPULAR */
 
-/*LODGING*/
-
-/*MINI CARDS LODGING*/
+/* CARDS LODGING*/
 
 .cards_lodging{
   display: flex;
@@ -219,14 +219,6 @@ section h1 {
   cursor: pointer;
   transition: 0.3s;
   transform: scale(1.03);
-}
-
-.cards_lodging i{
-  color: #0065fc;
-}
-
-#grey{
-  color: #d9d9d9;
 }
 
 .cards_lodging img{
@@ -256,16 +248,15 @@ section h1 {
   padding-left: 8px;
 }
 
-/* END MINI CARDS LODGING */
+/* END CARDS LODGING */
 
-/* MINI CARDS POPULAR */
+/* CARDS POPULAR */
 
 .cards_popular{
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
-
 
 .cards_popular > div{
   display: flex;
@@ -284,14 +275,17 @@ section h1 {
   transform: scale(1.03);
 }
 
-.cards_popular i{
-  color: #0065fc;
-}
-
 .cards_popular img{
   border-radius: 20px 0 0 20px ;
   width: 155px;
   object-fit: cover;
+}
+
+.text_popular{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 12px;
 }
 
 .cards_popular h3{
@@ -310,11 +304,4 @@ section h1 {
   font-size: 12px;
 }
 
-.text_popular{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 12px;
-}
-
-/* END MINI CARDS POPULAR */
+/* END CARDS POPULAR */
