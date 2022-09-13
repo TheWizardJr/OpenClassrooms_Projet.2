@@ -87,4 +87,17 @@
 
   /* END CARDS LODGING & POPULAR */
 
+  /* ACTIVITIES */
+
+  .cards_activities{
+    gap: 20px;
+  }
+
+  .cards_activities >div{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* END ACTIVITIES */
+
 }

@@ -305,3 +305,95 @@ section h1 {
 }
 
 /* END CARDS POPULAR */
+
+/* ACTIVITIES */ 
+
+#container_activities{
+  padding: 0 50px;
+}
+
+.activities{
+  margin: 50px 0;
+}
+
+/* CARDS ACTIVITIES */
+
+.cards_activities{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 480px;
+}
+
+.cards_activities >div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 23%;
+  border-radius: 20px;
+  box-shadow: 0 0 16px #0000002e;
+}
+
+.cards_activities >div:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+
+.cards_activities h3{
+  margin: 0px;
+  padding-left: 18px;
+  padding-bottom: 15px;
+}
+
+.vieuxport, .calanques{
+  height: 100%;
+}
+
+.pomegues{
+  height: 53%;
+}
+
+.frioul{
+  height: 37%;
+}
+
+.notredame{
+  height: 44%;
+}
+
+.longchamp{
+  height: 46%;
+}
+
+/* END CARDS ACTIVITIES */
+
+/* IMG CARDS ACTIVITIES */
+
+.cards_activities img{
+  height: 88%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.pomegues img{
+  height: 78%;
+}
+
+.frioul img{
+  height: 68%;
+}
+
+.notredame img{
+  height: 74%;
+}
+
+.longchamp img{
+height: 74%;
+}
+
+/* END IMG CARDS ACTIVITIES */
+
+/* END ACTIVITIES */

@@ -35,17 +35,40 @@
     #container_lodging{
       flex-direction: column-reverse;
     }
-  
-    /* END LODGING */
-  
+
     /* CARDS POPULAR */
   
     .cards_popular{
       flex-direction: column;
       justify-content: space-around;
     }
-  
+      
     /* END CARDS POPULAR */
   
+    /* END LODGING */
 
+    /* ACTIVITIES */
+
+    .cards_activities{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 200px;
+      gap: 20px;
+    }
+
+    .cards_activities >div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 48%;
+      height: 80%;
+    }
+
+    .cards_activities img{
+      height: 70%;
+    }
+
+    /* END ACTIVITIES */
+  
 }
