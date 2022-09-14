@@ -89,6 +89,10 @@
 
   /* ACTIVITIES */
 
+  .activities{
+    height: 1350px;
+  }
+
   .cards_activities{
     gap: 20px;
   }
@@ -99,5 +103,15 @@
   }
 
   /* END ACTIVITIES */
+
+  /* FOOTER */
+
+  .liste{
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+  }
+
+  /*END FOOTER */
 
 }
