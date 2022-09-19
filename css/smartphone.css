@@ -52,6 +52,11 @@
     .search button span {
       display: none;
     }
+
+    .search input{
+      padding-right: 0px;
+      width: 100%;
+    }
   
   /*END SEARCH */
 
