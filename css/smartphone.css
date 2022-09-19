@@ -89,6 +89,10 @@
 
   /* ACTIVITIES */
 
+  #container_activities{
+    padding: 0 30px;
+  }
+
   .activities{
     height: 1350px;
   }
