@@ -112,6 +112,10 @@
     height: 560px;
   }
 
+  .liste >div{
+    width: 250px;
+  }
+
   /*END FOOTER */
 
 }
