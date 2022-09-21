@@ -105,6 +105,10 @@ section h1 {
   gap: 32px;
 }
 
+.filters p{
+  padding-left: 7px;
+}
+
 .filters button {
   display: flex;
   align-items: center;
@@ -201,6 +205,11 @@ section h1 {
   justify-content: space-between;
 }
 
+.display:hover{
+  color: #0065fc;
+  border-bottom: solid 1px #0065fc;
+}
+
 /* END RESULTS & POPULAR */
 
 /* CARDS LODGING*/
@@ -245,6 +254,7 @@ section h1 {
 
 .cards_lodging p{
   font-size: 13px;
+  font-weight: 100;
   padding-top: 1px;
   padding-bottom: 5px;
   padding-left: 8px;
@@ -264,6 +274,12 @@ section h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
+}
+
+.cards_popular a{
+  display: flex;
+  color: inherit;
+  text-decoration: none;
 }
 
 .cards_popular > div{
@@ -380,7 +396,7 @@ section h1 {
 
 /* IMG CARDS ACTIVITIES */
 
-.cards_activities img{
+.cards_activities  img{
   height: 88%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
@@ -444,7 +460,8 @@ li a{
   }
 
 li a:hover{
-  border-bottom: 2px solid black;
+  color: #0065fc;
+  border-bottom: 2px solid #0065fc;
 }
 
 /* END FOOTER */
