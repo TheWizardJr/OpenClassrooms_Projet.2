@@ -5,6 +5,18 @@
   font-family: Raleway, sans-serif;
 }
 
+h2{
+  font-size: 21px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+h3{
+  font-size: 16px;
+}
+
 /* HEADER */
 
 .head {
@@ -201,6 +213,7 @@ section h1 {
 .star{
   display: flex;
   justify-content: space-between;
+  font-size: 22px;
 }
 
 .display:hover{
@@ -435,7 +448,7 @@ height: 74%;
 
 .liste h3{
 padding-top: 24px; 
-font-size: 20px;
+font-size: 18px;
 }
 
 .liste li{
@@ -455,6 +468,8 @@ li{
 li a{
   color: inherit;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 200;
   }
 
 li a:hover{
