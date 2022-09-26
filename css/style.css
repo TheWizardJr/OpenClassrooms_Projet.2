@@ -273,6 +273,13 @@ section h1 {
   padding-left: 8px;
 }
 
+.text_lodging{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 38%;
+}
+
 /* END CARDS LODGING */
 
 /* CARDS POPULAR */
