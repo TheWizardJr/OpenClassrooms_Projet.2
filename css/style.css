@@ -111,10 +111,9 @@ section h1 {
 
 .filters {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 25px 0;
-  flex-wrap: wrap;
-  align-items: baseline;
   gap: 32px;
 }
 
