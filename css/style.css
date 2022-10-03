@@ -314,7 +314,8 @@ section h1 {
 
 .cards_popular img{
   border-radius: 20px 0 0 20px ;
-  width: 45%;
+  min-width: 45%;
+  max-width: 45%;
   object-fit: cover;
 }
 

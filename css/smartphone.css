@@ -69,7 +69,11 @@
   /* END LODGING */
 
   /* RESULTS & POPULAR */
-
+  
+  .cards_popular img{
+    width: 45%;
+    max-width: 45%;
+  }
   .results, .popular{
     border-radius: inherit;
   }
